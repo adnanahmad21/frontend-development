@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/fuji.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav img {
+    width: 150px;
+}
+
+.signup-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+    width: 350px;
+}
+
+.signup-box h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.signup-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box input {
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.signup-box input:focus {
+    border-color: #e50914;
+    outline: none;
+}
+
+.signup-box .btn {
+    background-color: #e50914;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-box .btn:hover {
+    background-color: #f40612;
+}
+
+.existing-account {
+  
+    text-decoration: underline;
+}
